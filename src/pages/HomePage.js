@@ -3,7 +3,6 @@ import useSWR from "swr";
 import { API, fetcher, tmdbAPI } from "apiConfig/config";
 import MovieList from "../components/movie/MovieList";
 import Login from './AuthPage';
-import useToken from "common/useToken";
 import { setAuthToken } from "common/helper";
 
 const HomePage = () => {

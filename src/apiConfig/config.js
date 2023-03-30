@@ -8,7 +8,8 @@ export const apiKey = "95f2419536f533cdaa1dadf83c606027";
 const tmdbEndpoint = "https://api.themoviedb.org/3/movie";
 const tmdbEndpointSearch = "https://api.themoviedb.org/3/search/movie";
 
-const ServerUri = "http://localhost:8080"
+const ServerUri = "http://194.163.34.66:8080"
+// const ServerUri = "https://api-backend.com:8080"
 const ApiEndpoint = `${ServerUri}/api/v1`;
 
 export const tmdbAPI = {
